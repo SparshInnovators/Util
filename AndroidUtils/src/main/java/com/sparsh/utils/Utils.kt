@@ -194,7 +194,7 @@ public class Utils {
             } else {
                 val r = Pattern.compile("^[a-zA-Z0-9]*$")
                 r.matcher(target)
-                    .matches()
+                    .find()
             }
         }
 
