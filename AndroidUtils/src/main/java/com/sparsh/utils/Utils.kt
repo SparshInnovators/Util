@@ -85,7 +85,7 @@ public class Utils {
             return ip
         }
 
-        open public fun newDataStoreWithName(
+        fun newDataStoreWithName(
             context: Context,
             dataStoreName: String
         ): DataStore<Preferences> {
