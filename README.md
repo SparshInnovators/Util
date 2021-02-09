@@ -21,7 +21,7 @@ Add it in your root build.gradle at the end of repositories:
 ```
 dependencies
   {
-      implementation 'com.github.SparshInnovators:AndroidUtils:1.0.0'
+      implementation 'com.github.SparshInnovators:Util:1.0.0'
   }
 ```
 
