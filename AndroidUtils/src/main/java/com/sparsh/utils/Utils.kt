@@ -85,11 +85,12 @@ public class Utils {
             return ip
         }
 
-        fun createDataStoreWithName(
+        open public fun newDataStoreWithName(
             context: Context,
             dataStoreName: String
-        ): DataStore<Preferences>? {
-            var dataStore: DataStore<Preferences>?
+        ): DataStore<Preferences> {
+
+            val dataStore: DataStore<Preferences>?
             dataStore = context!!.createDataStore(name = dataStoreName)
             return dataStore
         }
