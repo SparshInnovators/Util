@@ -1,4 +1,4 @@
-package com.aparsh.utils
+package com.sparsh.utils
 
 import org.junit.Test
 

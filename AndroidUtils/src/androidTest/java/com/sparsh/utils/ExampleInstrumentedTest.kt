@@ -1,4 +1,4 @@
-package com.aparsh.utils
+package com.sparsh.utils
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

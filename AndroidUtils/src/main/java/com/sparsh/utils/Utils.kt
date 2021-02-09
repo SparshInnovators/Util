@@ -1,4 +1,4 @@
-package com.aparsh.utils
+package com.sparsh.utils
 
 import android.app.Activity
 import android.content.Context
